@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: #e7f5fc;
+    text-align: center;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2em;
+    color: #0b5569;
+    position: relative;
+    margin: 20px 0 30px;
+  }
+
+  
+  .card {
+    border-radius: 20px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #cbedfd;
+    margin: 50px 0;
+    height: 200px;
+    box-shadow: 0 2px 5px rgb(87, 86, 86);
+    text-align: left;
+    animation-name: card;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+  @keyframes card {
+    0%{
+      position: relative;
+      left: 1000px;
+      transform: rotate(0deg);
+    }
+    50%{
+      position: relative;
+      left: 0px;
+      transform: rotate(-360deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+  }
+  
+  .top {
+    border-radius: 20px 20px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #0094ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    color: #e1f4fa;
+    display: flex;
+    flex: 1;
+    margin: 10% 20px 0;
+  }
+  
+  img {
+    margin: 30px 20px 0 0;
+  }
+  .card{
+     height: 200px;
+  }
+  .circle-img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .bottom {
+    margin-top: 120px;
+  }
+  
+  .info {
+    margin: 20px 0;
+    color: #1a7e76;
+  }
+  .copyright{
+    color: #0b5569;
+    margin-top: 30px;
+    font-size: small;
+    position: relative;
+  }
+  
+  #submit{
+    margin: 2px;
+    margin-left: 3px;
+  }
+  #date{
+    margin-left: 3px;
+  }
+  #month{
+    margin: 2px;
+  }
+  #year{
+    width: 55px;
+    height: 14px;
+  }
+  
+  
