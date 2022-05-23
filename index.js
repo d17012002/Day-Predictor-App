@@ -1,3 +1,4 @@
+//Select inputs
 let input1 = document.getElementById("date");
 let input2 = document.getElementById("month");
 let input3 = document.getElementById("year");
@@ -7,6 +8,7 @@ submitBtn.addEventListener("click", getInfo);
 
 function getInfo(e){
     e.preventDefault();
+    //Get input value - Integer
     let date = parseInt(input1.value);
     let month = parseInt(input2.value);
     let year = parseInt(input3.value);
